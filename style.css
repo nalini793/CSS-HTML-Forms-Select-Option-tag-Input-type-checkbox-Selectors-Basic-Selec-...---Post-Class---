@@ -19,12 +19,12 @@
 }
 
 .left-section{
-    grid-column: 300px;
+    grid-column: 1/ span 1;
     background-color: aqua;
 }
 .right-section{
     background-color: rgb(160, 220, 233);
-    grid-column: 700px;
+    grid-column: 2/ span 1;
     width: 90%; 
     /* check width */
 }
